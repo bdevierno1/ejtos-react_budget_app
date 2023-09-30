@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#currency {
+  background-color: inherit; /* Set the background color to match the parent's background */
+  border: none; /* Remove border */
+  color: inherit; /* Inherit text color from parent */
+}
+
+#darker-success {
+  background-color: #90EE90;
+  /* Additional styling (text color, border, etc.) can be added as needed */
+}
+
+select option {
+  background-color: black;
+}
