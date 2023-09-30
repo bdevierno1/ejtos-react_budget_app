@@ -22,12 +22,12 @@ const Budget = () => {
             }
         } else {
             // Display an error message or handle the budget less than expenses case
-            alert("Budget can not be less than Expected!");
+            alert("Budget can not be lower than spending!");
         }
     }
     return (
         <div className='alert alert-secondary'>
-            <span>Budget: {currency}{budget}</span>
+            <span>Budget: {currency}</span>
             <input type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
         </div>
     );
